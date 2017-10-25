@@ -56,12 +56,12 @@ public class NbSpringbootDockerApplicationJsonTests {
                 .isEqualTo("pstassip@gmail.com");
     }
     
-   @Test
-    public void testSerializeFile() throws Exception {
-        Employee details = new Employee("Panos", "pstassip@gmail.com");
+//   @Test
+//    public void testSerializeFile() throws Exception {
+//        Employee details = new Employee("Panos", "pstassip@gmail.com");
         // Assert against a `.json` file in the same package as the test
-        assertThat(this.json.write(details)).isEqualToJson("expected.json");
-    }
+//        assertThat(this.json.write(details)).isEqualToJson("expected.json");
+//    }
 
     @Test
     public void testDeserialize() throws Exception {
