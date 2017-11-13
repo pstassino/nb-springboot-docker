@@ -55,3 +55,4 @@ public class NbSpringbootDockerApplicationJsonTests {
         assertThat(this.json.write(details)).extractingJsonPathStringValue("@.email")
                 .isEqualTo("pstassip@gmail.com");
     }
+}
