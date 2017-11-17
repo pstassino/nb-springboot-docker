@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class NbSpringbootDockerApplicationTests {
 
-    @Autowired
+   @Autowired
     private EmployeeRestController restTemplate;
 
     @Test
